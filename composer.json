@@ -1,0 +1,20 @@
+{
+    "name": "andy/groute",
+    "description": "A simple router with a front controller.",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "zendframework/zend-http": "^2.5"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Rusu",
+            "email": "rusu.andy1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
