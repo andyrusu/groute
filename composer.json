@@ -1,6 +1,6 @@
 {
     "name": "andy/groute",
-    "description": "A simple router with a front controller.",
+    "description": "A PHP router library.",
     "type": "library",
     "require": {
         "php": ">=5.5.0",
@@ -16,5 +16,10 @@
             "email": "rusu.andy1@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Groute": "src/Groute"
+        }
+    }
 }

@@ -28,7 +28,7 @@ $router = new Router([
 					'handler' => 'create',
 				],
 				[
-					'group'  => '(id: \d+)'
+					'group'  => '(id: \d+)',
 					'routes' => [
 						[
 							'routes'  => ['', 'view'], //Means: /posts/1/view
